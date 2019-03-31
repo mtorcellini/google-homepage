@@ -1,0 +1,84 @@
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav .left li {
+    float: left;
+}
+
+.nav .right li {
+    float: right;
+}
+
+.nav a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: grey;
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+}
+
+#main {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#searchbar {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 150px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.buttons {
+    width: 270px;
+    height: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+    display: block;
+}
+
+.SearchButton {
+    display: inline-block;
+    float: left;
+    position: relative;
+    background: lightgrey;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+    color: black;
+}
+
+.LuckyButton {
+
+
+    float: right;
+    background: lightgrey;
+    padding: 10px;
+
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+    color: black;
+}
+
+
+.buttons a:hover {
+    padding: 9px;
+    border: 1px solid gray;
+}
+
